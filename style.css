@@ -1,0 +1,108 @@
+/* *{
+    overflow: hidden;
+
+} */
+.body{
+    background-color: #2e3844;
+}
+.iconimg{
+    width: 100px;
+    /* animation-name: icon;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; */
+}
+/* @keyframes icon{
+from{
+    transform: rotate(0deg);
+}
+to{
+    transform: rotate(360deg);
+}
+} */
+ .proimg{
+    width: 100%;
+    height: 400px;
+ }
+.navbar{
+    background-color: #2e3844;
+}
+.projectsContainer{
+    width: 75vw;
+    margin: auto;
+}
+.bg-image {
+    background-image: url('/2h-media-SGBXPTiX10I-unsplash.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensure the image covers the area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background repetition */
+    height: 70vh; /* Full viewport height */
+    overflow: hidden;
+  }
+  .namee{
+    position: absolute; 
+    bottom: 350px; 
+    color: rgba(255, 255, 255, 0.458);
+    text-shadow: 2px 2px 2px black;
+  }
+  .smallScreen{
+    display: none;
+}
+  @media (max-width:360px){
+    /* .namee {
+        position: absolute; 
+        bottom: 295px; 
+    } */
+     .bigScreen{
+        display: none;
+     }
+     .smallScreen{
+       display: contents;
+     }
+     .proimg{
+        height: 100%;
+     }
+     #contact{
+         display: flex;
+         flex-direction: column !important;
+         gap: 2rem;
+     }
+  }
+
+
+  /* Optional: Set text color to white for contrast */
+  /* .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  } */
+/* .myName{
+    animation-name: nameanim;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    text-shadow: 2px 2px 2px black;
+}
+@keyframes nameanim{
+    from{
+        transform: translate(-75vw);
+    }
+    to{
+        transform: translate(75vw);
+    }
+}
+.designation{
+    animation-name: desiganim;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes desiganim{
+    from{
+        transform: translate(75vw);
+    }
+    to{
+        transform: translate(-75vw);
+    }
+} */
+
